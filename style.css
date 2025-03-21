@@ -1,20 +1,12 @@
-a:link {
-  text-decoration: none;
+a:link, a:visited {
+  background-color: blue;
+  color: blue;
   padding: 14px 25px;
   text-align: center;
-  display: inline-block;
-}
-
-a:visited {
   text-decoration: none;
-  text-align: center;
   display: inline-block;
 }
 
-a:hover {
-  text-decoration: green;
-}
-
-a:active {
-  text-decoration: yellow;
+a:hover, a:active {
+  background-color: green;
 }
